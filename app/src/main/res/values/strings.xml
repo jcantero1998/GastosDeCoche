@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Gastos de Coche</string>
+    <string name="main_cativity_title">Gastos de Coche</string>
+    <string name="add_vehicle_ativity_title">Datos del vehiculo</string>
+    <string name="abaut_us_ativity_title">Sobre Nosotros</string>
+    <string name="vehicle_ativity_title">Información del vehículo</string>
+    <string name="add_fuel_ativity_title">Añadir repostaje</string>
+    <string name="edit_fuel_ativity_title">Editar repostaje</string>
+    <string name="add_expense_ativity_title">Añadir gasto</string>
+    <string name="edit_expense_ativity_title">Editar gasto</string>
+
+    <string name="dialog_vehicle_txtTituloDialogInfo">Información del vehículo</string>
+    <string name="dialog_vehicle_editTextGastoMensual">Gasto mensual: </string>
+    <string name="dialog_vehicle_editTextGastoAnual">Gasto anual: </string>
+    <string name="dialog_vehicle_editTextPrecioPorKm">Precio por Km: </string>
+    <string name="dialog_vehicle_buttonVolver">VOLVER</string>
+
+    <string name="dialog_vehicle_to_pass_itv_txt1">Recuerda que tienes que pasar la ITV</string>
+    <string name="dialog_vehicle_to_pass_itv_txt_fecha">Fecha: </string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="abaut_us_txttitulo">La App</string>
+    <string name="abaut_us_txt">Aplicación que gestiona los gastos de diferentes vehiculos. Permite introducit los gastos producidos por la gasolina, la itv, etc. </string>
+    <string name="abaut_us_txt2">Se puede gestionar los gastos de diferentess vehívulos: Turismo, Motocicleta, Ciclomotor…</string>
+
+    <string name="abaut_us_txttitulo2">Otra información</string>
+    <string name="abaut_us_txtciclo">2º Desarrollo de Aplicaciones Multiplataforma</string>
+    <string name="abaut_us_txtasignatura">Programación Multimedia y Dispositivos Móviles</string>
+    <string name="abaut_us_desarrollador">Desarrollador: Jon Cantero Romero</string>
+
+    <string name="dialog_add_vehicle_titulo">Datos del Vehiculo</string>
+    <string name="dialog_add_vehicle_tipo">Tipo</string>
+    <string name="dialog_add_vehicle_marca">Marca</string>
+    <string name="dialog_add_vehicle_modelo">Modelo</string>
+    <string name="dialog_add_vehicle_itv">Fecha ITV</string>
+    <string name="dialog_add_vehicle_guardar">GUARDAR</string>
+    <string name="dialog_add_vehicle_actualizar">ACTUALIZAR</string>
+
+    <string name="activity_Add_fuel_fecha">Fecha</string>
+    <string name="activity_Add_fuel_Cuantia">Cuantía</string>
+    <string name="activity_Add_fuel_Litros">Litros</string>
+    <string name="activity_Add_fuel_Kilometros">Kilometros</string>
+    <string name="activity_Add_fuel_consumo_medio_anterior">Consumo medio anterior</string>
+
+    <string name="activity_Add_expense_comcepto">Concepto</string>
+    <string name="activity_Add_expense_categoria">Categoría</string>
+    <string name="activity_Add_expense_tipo_de_gasto">Tipo de gasto</string>
+
+
+</resources>

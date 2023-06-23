@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jon_cantero.gastosdecoche">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.VehicleInfoActivity"></activity>
+        <activity
+            android:name=".Activities.EditExppenseActivity"
+            android:label="@string/edit_expense_ativity_title"
+            android:parentActivityName=".Activities.VehicleActivity" />
+        <activity
+            android:name=".Activities.AddExpenseActivity"
+            android:label="@string/add_expense_ativity_title"
+            android:parentActivityName=".Activities.VehicleActivity" />
+        <activity
+            android:name=".Activities.EditFuelActivity"
+            android:label="@string/edit_fuel_ativity_title"
+            android:parentActivityName=".Activities.VehicleActivity" />
+        <activity
+            android:name=".Activities.AddFuelActivity"
+            android:label="@string/add_fuel_ativity_title"
+            android:parentActivityName=".Activities.VehicleActivity" />
+        <activity
+            android:name=".Activities.VehicleActivity"
+            android:label="@string/vehicle_ativity_title"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.AboutUsActivity"
+            android:label="@string/abaut_us_ativity_title"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.AddVehicleActivity"
+            android:label="@string/add_vehicle_ativity_title"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/main_cativity_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

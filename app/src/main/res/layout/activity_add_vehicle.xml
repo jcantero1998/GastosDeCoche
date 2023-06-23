@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context=".Activities.AddVehicleActivity">
+
+    <Spinner
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textAlignment="inherit"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:id="@+id/spinnerTipoDeVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextMarca"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textPersonName"
+        android:hint="@string/dialog_add_vehicle_marca"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextModelo"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textPersonName"
+        android:hint="@string/dialog_add_vehicle_modelo"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextItv"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="date"
+        android:hint="@string/dialog_add_vehicle_itv"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:foregroundGravity="bottom"
+            android:text="@string/dialog_add_vehicle_guardar"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
